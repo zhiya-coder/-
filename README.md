@@ -9,4 +9,4 @@ python3.6.9(ubuntu系统默认)
 
 ubuntu18.0.4 LTS
 
-ps：对于其他版本的chrome webdriver 可能需要自己去调试driver底下不同方法里面的参数名称，如果你想使用driver.find_element_by_xpath这个方法的话，直接windows界面右键"copy as xpath"就可以获取web控件对应的xpath了
+ps：对于其他版本的chrome webdriver 可能需要自己去调试driver底下不同方法里面的参数名称，如果你想使用driver.find_element_by_xpath这个方法的话，直接windows界面右键"copy as xpath"就可以获取web控件对应的xpath了，然后部署到自己的服务器上就可以了
