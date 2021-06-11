@@ -16,10 +16,10 @@ def yqtb_nwpu():
 
     username=driver.find_element_by_id('username')
     username.clear()
-    username.send_keys('2020262803')#抓取用户名栏并输入学号
+    username.send_keys('xxxxxxxx这里填你的学号xxxxxxx')#抓取用户名栏并输入学号
     password=driver.find_element_by_id('password')
     password.clear()
-    password.send_keys('wudongming152754')#抓取密码栏并输入密码
+    password.send_keys('xxxxxxxx这里填你的密码xxxxxxx')#抓取密码栏并输入密码
     driver.find_element_by_name('submit').click()#抓取登录按钮并点击
     time.sleep(1)
     driver.find_element_by_class_name('icon-shangbao1').click()
